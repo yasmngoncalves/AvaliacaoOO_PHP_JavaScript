@@ -1,7 +1,7 @@
 <?php
 class Pessoa {
-    protected $nome;
-    protected $idade;
+    private $nome;
+    private $idade;
 
     public function __construct($nome, $idade) {
         $this->nome = $nome;
